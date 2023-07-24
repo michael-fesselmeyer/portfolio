@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import './Navbar.css';
 
@@ -16,7 +17,12 @@ function Navbar() {
           <FaLinkedin />
         </a>
       </div>
-      <div className="navbar-links">Links</div>
+      <div className="navbar-links">
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/skills">Skills</Link>
+      </div>
     </div>
   );
 }
