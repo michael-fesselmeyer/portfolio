@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <h2>Contact Information</h2>
+      <p>Phone Number: 631-682-2407</p>
+      <p>Email: <a href="mailto:michael.fesselmeyer@gmail.com">michael.fesselmeyer@gmail.com</a></p>
+      <p>Postal Address: 1342 Gates Avenue, Bushwick, 11221</p>
+    </div>
   )
 }
