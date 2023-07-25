@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import './Navbar.css';
 
 function Navbar() {
@@ -15,6 +15,9 @@ function Navbar() {
         </a>
         <a href="https://www.linkedin.com/in/michael-fesselmeyer/" target="_blank" rel="noreferrer">
           <FaLinkedin />
+        </a>
+        <a href="https://docs.google.com/document/d/1kN63pkJlczyeRlNiB_-dk0_OKvhv2BB9YDiIZKF5eig/edit" target="_blank" rel="noreferrer">
+          <FaFileDownload />
         </a>
       </div>
       <div className="navbar-links">
