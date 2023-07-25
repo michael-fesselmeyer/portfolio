@@ -21,7 +21,6 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/portfolio">Portfolio</Link>
-        <Link to="/skills">Skills</Link>
       </div>
     </div>
   );

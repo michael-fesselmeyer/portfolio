@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css';
 
 export default function About() {
   return (
-    <div>
+    <div className="about-section">
       <h2>About</h2>
       <p>
         I am a fullstack software engineer specializing in the MERN stack and also work with Django
@@ -35,6 +36,67 @@ export default function About() {
       <p>
         Github: <a href="https://github.com/michael-fesselmeyer?tab=repositories">https://github.com/michael-fesselmeyer?tab=repositories</a>
       </p>
+
+      {/* Insert the Skills information below */}
+      <div className="skills-section">
+        <h2>Skills</h2>
+
+        <div>
+          <h3>HTML</h3>
+          <p>Proficient in writing semantic and accessible HTML code.</p>
+        </div>
+
+        <div>
+          <h3>CSS</h3>
+          <p>Skilled in styling websites using CSS, including CSS3 features.</p>
+        </div>
+
+        <div>
+          <h3>Javascript</h3>
+          <p>Experienced in building interactive and dynamic web applications with JavaScript.</p>
+        </div>
+
+        <div>
+          <h3>React</h3>
+          <p>Proficient in building modern web applications using React.js library.</p>
+        </div>
+
+        <div>
+          <h3>Express</h3>
+          <p>Knowledgeable in creating web servers using Express framework.</p>
+        </div>
+
+        <div>
+          <h3>Node</h3>
+          <p>Experienced in server-side development using Node.js.</p>
+        </div>
+
+        <div>
+          <h3>MongoDB</h3>
+          <p>Familiar with NoSQL databases, particularly MongoDB.</p>
+        </div>
+
+        <div>
+          <h3>SQL</h3>
+          <p>Skilled in working with relational databases and writing SQL queries.</p>
+        </div>
+
+        <div>
+          <h3>Django</h3>
+          <p>Proficient in building web applications using Django framework.</p>
+        </div>
+
+        <div>
+          <h3>Github</h3>
+          <p>Experienced in version control and collaborative development using GitHub.</p>
+        </div>
+
+        <div>
+          <h3>Python</h3>
+          <p>Proficient in Python programming language.</p>
+        </div>
+      </div>
+      {/* End of Skills section */}
     </div>
   );
 }

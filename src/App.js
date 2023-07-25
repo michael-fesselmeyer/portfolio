@@ -6,7 +6,6 @@ import Landing from './components/Landing'
 import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
-import Skills from './components/Skills'
 import Footer from './components/Footer'
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
       <div className="App-footer">
