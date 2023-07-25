@@ -6,26 +6,53 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: white; /* Pale Grey background color */
     padding: 10px 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: black; 
-}
+    color: white; /* White font color */
+  }
   
-.navbar-icons {
+  .navbar-icons {
     display: flex;
     gap: 15px;
     align-items: center;
-}
+  }
+  .github-icon-navbar {
+    color: #6e6e6e; /* GitHub icon color for navbar */
+  }
   
-.navbar-links {
+  .envelope-icon {
+    color: #ff9800; /* Envelope icon color */
+  }
+  
+  .linkedin-icon {
+    color: #0e76a8; /* LinkedIn icon color */
+  }
+  
+  .filedownload-icon {
+    color: #f44336; /* File Download icon color */
+  }
+  
+  /* Add hover effect for the icons */
+  .navbar-icons a:hover .github-icon-navbar,
+  .navbar-icons a:hover .envelope-icon,
+  .navbar-icons a:hover .linkedin-icon,
+  .navbar-icons a:hover .filedownload-icon {
+    color: #4caf50; /* Green color on hover */
+  }
+  
+  .navbar-links {
     display: flex;
     gap: 15px;
     align-items: center;
     margin-left: auto;
-}
+    padding-right: 20px; /* Add padding to the right of the links */
+  }
   
-.navbar-links a, .navbar-icons a {
+  .navbar-links a,
+  .navbar-icons a {
     text-decoration: none;
-    color: black;
-}
+    color: #053d57; /* White font color for links */
+    padding: 5px; /* Add padding to the icons and links */
+  }
+  
