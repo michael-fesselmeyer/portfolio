@@ -3,6 +3,7 @@ import Donowave from "../assets/images/donowave.png";
 import Dogfriends from "../assets/images/dogfriends.png";
 import Travelauth from "../assets/images/travelauth.png";
 import Historytrivia from "../assets/images/historytrivia.png";
+import { FaGithub } from 'react-icons/fa';
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -14,14 +15,15 @@ function Portfolio() {
           <div className="project-image">
             <img src={Donowave} alt="DonoWave Fundraising App" />
           </div>
-          <p>
-            Crowdfunding App using Metamask wallet and our own Cryptocurrency
-            for transactions
+          <p className="project-description">
+          Secure React app with Django, PostgreSQL, Metamask, and custom cryptocurrency crowdfunding.
           </p>
           <div className="technologies-list">
             <h4>Technologies Used:</h4>
             <ul>
               <li>React.js</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
               <li>Metamask</li>
               <li>Web3</li>
               <li>Tailwind</li>
@@ -30,9 +32,9 @@ function Portfolio() {
             </ul>
           </div>
 
-          <a href="https://donowave.netlify.app/">View Project 1</a>
-          <a href="https://github.com/lschmidtfellner/Donowave-Frontend">
-            GitHub Repo
+          <a href="https://donowave.netlify.app/" className="live-link-button">Live link to Project</a>
+          <a href="https://github.com/lschmidtfellner/Donowave-Frontend" className="github-link-button">
+            <FaGithub className="github-icon" /> GitHub Repo
           </a>
         </div>
 
@@ -41,7 +43,7 @@ function Portfolio() {
           <div className="project-image">
             <img src={Dogfriends} alt="Dog Friends' Social Media" />
           </div>
-          <p>Social Media App Designed for Dogs and Dog-lovers</p>
+          <p className="project-description">Social Media App Designed for Dogs and Dog-lovers</p>
 
           <div className="technologies-list">
             <h4>Technologies Used:</h4>
@@ -55,11 +57,11 @@ function Portfolio() {
             </ul>
           </div>
 
-          <a href="https://frontend-app-dog-friends-git-merged-code-backup-elijahw.vercel.app/">
-            View Project 2
+          <a href="https://frontend-app-dog-friends-git-merged-code-backup-elijahw.vercel.app/" className="live-link-button">
+            Live link to Project
           </a>
-          <a href="https://github.com/1ElijahW/Frontend-App-DogFriends">
-            GitHub Repo
+          <a href="https://github.com/1ElijahW/Frontend-App-DogFriends" className="github-link-button">
+            <FaGithub className="github-icon" /> GitHub Repo
           </a>
         </div>
 
@@ -68,7 +70,7 @@ function Portfolio() {
           <div className="project-image">
             <img src={Travelauth} alt="JSON Web Token Authentication" />
           </div>
-          <p>Demonstration of JSON web tokens for authentication purposes</p>
+          <p className="project-description">Demonstration of JSON web tokens for authentication purposes</p>
 
           <div className="technologies-list">
             <h4>Technologies Used:</h4>
@@ -82,11 +84,11 @@ function Portfolio() {
             </ul>
           </div>
 
-          <a href="https://unique-figolla-fb8e99.netlify.app/">
-            View Project 3
+          <a href="https://unique-figolla-fb8e99.netlify.app/" className="live-link-button">
+            Live link to Project
           </a>
-          <a href="https://github.com/michael-fesselmeyer/travel-destination-frontend">
-            GitHub Repo
+          <a href="https://github.com/michael-fesselmeyer/travel-destination-frontend" className="github-link-button">
+            <FaGithub className="github-icon" /> GitHub Repo
           </a>
         </div>
 
@@ -95,7 +97,7 @@ function Portfolio() {
           <div className="project-image">
             <img src={Historytrivia} alt="History Trivia" />
           </div>
-          <p>Historical trivia game with high score list</p>
+          <p className="project-description">Historical trivia game with high score list</p>
 
           <div className="technologies-list">
             <h4>Technologies Used:</h4>
@@ -106,10 +108,12 @@ function Portfolio() {
             </ul>
           </div>
 
-          <a href="https://thriving-sfogliatella-d0b989.netlify.app/">
-            View Project 4
+          <a href="https://thriving-sfogliatella-d0b989.netlify.app/" className="live-link-button">
+            Live link to Project
           </a>
-          <a href="https://github.com/michael-fesselmeyer/game">GitHub Repo</a>
+          <a href="https://github.com/michael-fesselmeyer/game" className="github-link-button">
+            <FaGithub className="github-icon" /> GitHub Repo
+          </a>
         </div>
       </div>
     </div>
