@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar'
-import Landing from './components/Landing'
+// import Landing from './components/Landing'
 import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="App-body">
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />

@@ -30,7 +30,7 @@ export default function About() {
       <p>
         If you are seeking a dedicated and versatile coder with a passion for innovation, let's connect.
         I believe my skills, service industry background, and commitment to the community can contribute to your organization's success.
-        Reach me on <a href="https://www.linkedin.com/in/your-linkedin-profile/">LinkedIn</a> or via email at <a href="mailto:michael.fesselmeyer@gmail.com">michael.fesselmeyer@gmail.com</a>.
+        Reach me on <a href="https://www.linkedin.com/in/michael-fesselmeyer/">LinkedIn</a> or via email at <a href="mailto:michael.fesselmeyer@gmail.com">michael.fesselmeyer@gmail.com</a>.
         Let's discuss potential collaborations in coding.
       </p>
       <p>
