@@ -2,57 +2,64 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 3%;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white; /* Pale Grey background color */
-    padding: 10px 15px;
+    background-color: white;
+    padding: 0 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: white; /* White font color */
-  }
+    color: black;
+}
   
-  .navbar-icons {
+.navbar-icons {
     display: flex;
     gap: 15px;
     align-items: center;
-  }
-  .github-icon-navbar {
-    color: #6e6e6e; /* GitHub icon color for navbar */
-  }
+}
   
-  .envelope-icon {
-    color: #ff9800; /* Envelope icon color */
-  }
+.github-icon-navbar {
+    color: #6e6e6e;
+}
   
-  .linkedin-icon {
-    color: #0e76a8; /* LinkedIn icon color */
-  }
+.envelope-icon {
+    color: #ff9800;
+}
   
-  .filedownload-icon {
-    color: #f44336; /* File Download icon color */
-  }
+.linkedin-icon {
+    color: #0e76a8;
+}
   
-  /* Add hover effect for the icons */
-  .navbar-icons a:hover .github-icon-navbar,
-  .navbar-icons a:hover .envelope-icon,
-  .navbar-icons a:hover .linkedin-icon,
-  .navbar-icons a:hover .filedownload-icon {
-    color: #4caf50; /* Green color on hover */
-  }
+.filedownload-icon {
+    color: #f44336;
+}
   
-  .navbar-links {
+.navbar-icons a:hover .github-icon-navbar,
+.navbar-icons a:hover .envelope-icon,
+.navbar-icons a:hover .linkedin-icon,
+.navbar-icons a:hover .filedownload-icon {
+    color: #4caf50;
+}
+  
+.navbar-links {
     display: flex;
     gap: 15px;
     align-items: center;
     margin-left: auto;
-    padding-right: 20px; /* Add padding to the right of the links */
-  }
+    padding-right: 20px;
+}
   
-  .navbar-links a,
-  .navbar-icons a {
+.navbar-links a,
+.navbar-icons a {
     text-decoration: none;
-    color: #053d57; /* White font color for links */
-    padding: 5px; /* Add padding to the icons and links */
-  }
+    color: #053d57;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
   
+.navbar-links a:hover {
+    color: #4caf50;
+    text-decoration: underline; /* Add underline on hover */
+}

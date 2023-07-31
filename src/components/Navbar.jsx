@@ -11,7 +11,6 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar App">
-      {" "}
       {/* Add "App" class here */}
       <div className="navbar-icons">
         <a
@@ -41,10 +40,10 @@ function Navbar() {
         </a>
       </div>
       <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/" data-hover-text="Home">Home</Link>
+        <Link to="/about" data-hover-text="About">About</Link>
+        <Link to="/contact" data-hover-text="Contact">Contact</Link>
+        <Link to="/portfolio" data-hover-text="Portfolio">Portfolio</Link>
       </div>
     </div>
   );
