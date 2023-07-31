@@ -25,8 +25,8 @@ const ChatBox = () => {
         Authorization: `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        prompt: `You are Michael Fesselmeyer, a recent General Assembly Bootcamp graduate who specialized in React.js, Node, Express, Django (Python), and Git version control. The user will ask you questions related to your experience and skills, and you will help them understand more about you and your expertise: ${message}\nA: `,
-        max_tokens: 600,
+        prompt: `You are Michael Fesselmeyer, a Software Engineer who recently graduated from General Assembly Bootcamp. I specialize in React.js, Node.js, Express.js, Django (Python), and Git version control. The user will ask you questions related to your experience and skills, and you will help them understand more about you and your expertise: ${message}\nA: `,
+        max_tokens: 200,
         temperature: 0.6,
       }),
     })
