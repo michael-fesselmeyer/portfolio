@@ -18,10 +18,10 @@ function Portfolio() {
               className="project-image"
             />
             <div className="project-description">
-              <h3>DonoWave Crypto-Crowdfunding App</h3>
+              <h3>DonoWave App</h3>
               <p>
                 Secure React app with Django, PostgreSQL, Metamask, and custom
-                cryptocurrency crowdfunding.
+                crowdfunding.
               </p>
               <a
                 href="https://github.com/lschmidtfellner/Donowave-Frontend"
@@ -44,7 +44,7 @@ function Portfolio() {
               className="project-image"
             />
             <div className="project-description">
-              <h3>DogFriends Social Media App</h3>
+              <h3>DogFriends App</h3>
               <p>Social Media App Designed for Dogs and Dog-lovers</p>
               <a
                 href="https://github.com/1ElijahW/Frontend-App-DogFriends"
@@ -67,7 +67,7 @@ function Portfolio() {
               className="project-image"
             />
             <div className="project-description">
-              <h3>JSON Web Token Authentication Demonstration</h3>
+              <h3>JWT Authentication Demo</h3>
               <p>
                 Demonstration of JSON web tokens for authentication purposes
               </p>
