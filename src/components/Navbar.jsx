@@ -32,7 +32,7 @@ function Navbar() {
           <FaLinkedin className="linkedin-icon" />
         </a>
         <a
-          href="https://docs.google.com/document/d/1kN63pkJlczyeRlNiB_-dk0_OKvhv2BB9YDiIZKF5eig/edit"
+          href="https://docs.google.com/document/d/1gVZTzmeo0vV1JLKFXkG4RYxNlmdU8jqwZTxpO_EAI_k/edit"
           target="_blank"
           rel="noreferrer"
         >
